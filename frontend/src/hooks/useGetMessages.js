@@ -20,7 +20,7 @@ const useGetMessages = () => {
 				setLoading(false);
 			}
 		};
-
+		
 		if (selectedConversation?._id) getMessages();
 	}, [selectedConversation?._id, setMessages]);
 
